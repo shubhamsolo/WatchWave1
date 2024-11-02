@@ -10,7 +10,7 @@ const app = express();
 app.use(cors(
 
     {
-  origin: [""], // Replace with your specific origin
+  origin: ["https://watch-wave1-nu.vercel.app"], // Replace with your specific origin
   methods: ["GET", "POST", "PUT", "DELETE"], // Specify allowed HTTP methods
   credentials: true // Allow credentials (cookies, authorization headers, etc.)
 }
